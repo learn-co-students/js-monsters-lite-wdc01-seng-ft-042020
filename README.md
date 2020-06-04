@@ -1,6 +1,6 @@
 # MONSTERS
 
-For this practice code challenge, your objective is to build a frontend for our
+For this lab, your objective is to build a frontend for our
 monsters data. Currently, the index.html page has a script tag to ```js/demo.js```
 so that you can see a demo of the finished app. Comment out the script tag to
 ```js/demo.js``` and uncomment out the script tag to ```js/index.js``` where you will
@@ -22,14 +22,12 @@ json-server monsters.json
 
 ## Objectives
 
-- When the page loads, show the first 50 monsters. Each monster's name, age, and
+- When the page loads, show all 5 monsters. Each monster's name, age, and
   description should be shown.
 - Above your list of monsters, you should have a form to create a new monster.
   You should have fields for name, age, and description, and a 'Create Monster
-  Button'. When you click the button, the monster should be added to the list
+  Button'. When you click the button, the monster should be added to the list on the DOM
   and saved in the API.
-- At the end of the list of monsters, show a button. When clicked, the button
-  should load the next 50 monsters and show them.
 
 ## API methods
 
@@ -38,14 +36,6 @@ Get the list of monsters
 ```text
 GET http://localhost:3000/monsters
 
-optional parameters:
-
-_limit=[number] - limit the number of monsters returned
-_page=[number] - offset your request for monsters to some page (must specify a limit)
-
-example:
-
-GET http://localhost:3000/monsters/?_limit=20&_page=3
 
 sample response:
 [
@@ -74,7 +64,7 @@ Create a monster
 
 ```text
 POST http://localhost:3000/monsters
-headers: 
+headers:
 {
   "Content-Type": "application/json",
   Accept: "application/json"
