@@ -29,6 +29,24 @@
       "age": 4838.903020812994,
       "description": "Mortal madness foetid. Foetid hideous antediluvian non-euclidean comprehension nameless lurk. Squamous shunned accursed amorphous.",
       "id": 5
+    },
+    {
+      "name": "Glaurung",
+      "age": "123456",
+      "description": "dragon",
+      "id": 6
+    },
+    {
+      "name": "balrog",
+      "age": "4321",
+      "description": "durin's bane",
+      "id": 7
+    },
+    {
+      "name": "smaug",
+      "age": "586",
+      "description": "wicked wyrm from the withered heath. bane of thrain and thror. slain by bard of dale, whose grandsire was Girion.",
+      "id": 8
     }
   ]
 }
