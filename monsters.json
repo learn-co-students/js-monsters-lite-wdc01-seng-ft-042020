@@ -29,6 +29,30 @@
       "age": 4838.903020812994,
       "description": "Mortal madness foetid. Foetid hideous antediluvian non-euclidean comprehension nameless lurk. Squamous shunned accursed amorphous.",
       "id": 5
+    },
+    {
+      "name": "Cerberus",
+      "age": "2349.345",
+      "description": "a wild dog",
+      "id": 6
+    },
+    {
+      "name": "Minotaur",
+      "age": "239084.239",
+      "description": "a bull man",
+      "id": 7
+    },
+    {
+      "name": "Medusa",
+      "age": "234.1234",
+      "description": "snakes-for-hair",
+      "id": 8
+    },
+    {
+      "name": "Diavel",
+      "age": "324.23145",
+      "description": "from the witcher",
+      "id": 9
     }
   ]
 }
